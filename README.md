@@ -8,9 +8,44 @@ the numbers behind the design.
 
 # An Example of a Pokemon
 
+This is Pickachu the franchises mascot.
+
 ![alt text](https://cdn.bulbagarden.net/upload/2/28/Spr_6o_025_C.png)
 
-This is Pickachu the franchises mascot.
+This is Pickachu in our data.
+
+```python
+pokemon.iloc[30]
+```
+
+#25
+
+Name           Pikachu
+
+Type 1        Electric
+
+Type 2             NaN
+
+Total              320
+
+HP                  35
+
+Attack              55
+
+Defense             40
+
+Sp. Atk             50
+
+Sp. Def             50
+
+Speed               90
+
+Generation           1
+
+Legendary        False
+
+Name: 30, dtype: object
+
 
 # A Look at Every Generation
 
