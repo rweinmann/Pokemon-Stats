@@ -48,7 +48,7 @@ plt.title('Number of Pokemon by type 1')
 plt.show()
 ```
 
-![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/pie1.png)
+![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/Graphs/pie1.png)
 
 ```python
 colormap = plt.cm.plasma
@@ -59,7 +59,7 @@ sns.plt.show()
 #color map looking at Pearson correlations
 ```
 
-![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/heat1.png)
+![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/Graphs/heat1.png)
 
 As we can see sp. def and defense as well as sp. attack and sp. def have some of 
 the strongest correlations.
@@ -72,7 +72,7 @@ plt.show()
 #histograms of the different stats to show if they have normal distribution
 ```
 
-![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/hist1.png)
+![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/Graphs/hist1.png)
 
 Attack, Defense, HP, Sp. Atk, Sp. Def, and Speed have decent distributions.
 
@@ -99,7 +99,7 @@ plt.title('Number of Pokemon by type 1')
 plt.show()
 ```
 
-![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/pie2.png)
+![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/Graphs/pie2.png)
 
 ```python
 colormap = plt.cm.plasma
@@ -111,7 +111,7 @@ sns.plt.show()
 #color map looking at Pearson correlations
 ```
 
-![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/heat2.png)
+![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/Graphs/heat2.png)
 
 Here we can see that sp. attack and sp. def have the highest correlation, even higher then our control. This means in gen one sp. attack and sp. def tended to go hand in hand.
 
@@ -124,7 +124,7 @@ plt.show()
 #histograms of the different stats to show if they have normal distribution
 ```
 
-![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/hist2.png)
+![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/Graphs/hist2.png)
 
 Attack, Defense, HP, Sp. Atk, and Speed have decent distributions.
 
@@ -150,7 +150,7 @@ plt.title('Number of Pokemon by type 1')
 #plt.savefig('pie3.png', bbox_inches='tight')
 plt.show()
 ```
-![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/pie3.png)
+![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/Graphs/pie3.png)
 
 ```python
 colormap = plt.cm.plasma
@@ -162,7 +162,7 @@ sns.plt.show()
 #color map looking at Pearson correlations
 ```
 
-![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/heat3.png)
+![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/Graphs/heat3.png)
 
 
 In gen two it seems that the two def stats (sp. def and defense) correlate best, but we see that sp. def and sp. attack correlation almost completely drops off compared to our control and gen one. 
@@ -177,7 +177,7 @@ plt.show()
 #histograms of the different stats to show if they have normal distribution
 ```
 
-![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/hist3.png)
+![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/Graphs/hist3.png)
 
 This generation does not have normal distributions.
 
@@ -204,7 +204,7 @@ plt.title('Number of Pokemon by type 1')
 plt.show()
 ```
 
-![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/pie4.png)
+![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/Graphs/pie4.png)
 
 ```python
 colormap = plt.cm.plasma
@@ -216,7 +216,7 @@ sns.plt.show()
 #color map looking at Pearson correlations
 ```
 
-![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/heat4.png)
+![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/Graphs/heat4.png)
 
 This gen (gen three) has a crazy high correlation between sp. atk and attack. Speed and sp atk also have high correlation which is a new correlation. This could be a generation that you would leave out for trying to predict type off of stats. The trend with the defenses (sp. def and defense) contiue also.
 
@@ -229,7 +229,7 @@ plt.show()
 #histograms of the different stats to show if they have normal distribution
 ```
 
-![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/hist4.png)
+![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/Graphs/hist4.png)
 
 # Generation 4
 
@@ -255,7 +255,7 @@ plt.title('Number of Pokemon by type 1')
 plt.show()
 ```
 
-![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/pie5.png)
+![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/Graphs/pie5.png)
 
 ```python
 colormap = plt.cm.plasma
@@ -267,7 +267,7 @@ sns.plt.show()
 #color map looking at Pearson correlations
 ```
 
-![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/heat5.png)
+![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/Graphs/heat5.png)
 
 
 Here we have the correlation out of all the gens. At a 71% correlation defense and sp. def in this generation should be the same or close to the same number. Here we also see a correlation between hp and attack which is a different trend compared to other gens.
@@ -281,7 +281,7 @@ plt.show()
 #histograms of the different stats to show if they have normal distribution
 ```
 
-![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/hist5.png)
+![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/Graphs/hist5.png)
 
 Attack has decent distribution.
 
@@ -308,7 +308,7 @@ plt.title('Number of Pokemon by type 1')
 plt.show()
 ```
 
-![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/pie6.png)
+![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/Graphs/pie6.png)
 
 ```python
 colormap = plt.cm.plasma
@@ -320,7 +320,7 @@ sns.plt.show()
 #color map looking at Pearson correlations
 ```
 
-![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/heat6.png)
+![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/Graphs/heat6.png)
 
 This generation we see a come back of sp. atk and sp. def correlation, we also still have an unsually high correlation of sp. def and defense. The trend form last gen (gen 4) of attack and hp contiues as well. 
 
@@ -333,7 +333,7 @@ plt.show()
 #histograms of the different stats to show if they have normal distribution
 ```
 
-![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/hist6.png)
+![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/Graphs/hist6.png)
 
 Attack and HP have decent distributions.
 
@@ -360,7 +360,7 @@ plt.title('Number of Pokemon by type 1')
 #plt.savefig('pie7.png', bbox_inches='tight')
 plt.show()
 ```
-![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/pie7.png)
+![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/Graphs/pie7.png)
 
 ```python
 colormap = plt.cm.plasma
@@ -372,7 +372,7 @@ sns.plt.show()
 #color map looking at Pearson correlations
 ```
 
-![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/heat7.png)
+![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/Graphs/heat7.png)
 
 The trends in gen 6 are speed and sp atk, sp. def, and sp. atk, attack and sp atk, and attack and hp. 
 
@@ -385,7 +385,7 @@ plt.show()
 #histograms of the different stats to show if they have normal distribution
 ```
 
-![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/hist7.png)
+![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/Graphs/hist7.png)
 
 Attack, Defense, and HP have decent distributions.
 
@@ -416,7 +416,7 @@ plt.title('Number of Pokemon by type 1')
 plt.show()
 ```
 
-![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/pie8.png)
+![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/Graphs/pie8.png)
 
 ```python
 colormap = plt.cm.plasma
@@ -434,7 +434,7 @@ sns.plt.show()
 #color map looking at Pearson correlations
 ```
 
-![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/heat8.png)
+![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/Graphs/heat8.png)
 
 ## Histograms of data without legendaries
 
@@ -447,4 +447,4 @@ plt.show()
 #histograms of the different stats to show if they have normal distribution
 ```
 
-![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/hist8.png)
+![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/Graphs/hist8.png)
