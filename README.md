@@ -54,3 +54,34 @@ plt.show()
 ```
 
 ![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/hist1.png)
+
+# Generation 1
+
+```python
+df1 = pokemon[pokemon.Generation == 1]
+#look at just first generation pokemon
+
+colormap = plt.cm.plasma
+plt.figure(figsize=(16,12))
+plt.title('Pearson correlation of data', y = 1.05, size = 15)
+sns.heatmap(df1.corr(), linewidths=0.1, vmax=1.0, square=True, cmap=colormap, linecolor='black', annot=True)
+plt.savefig('heat2.png', bbox_inches='tight')
+sns.plt.show()
+#color map looking at Pearson correlations
+```
+
+![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/heat2.png)
+
+Here we can see that sp. attack and sp. def have the highest correlation, even higher then our control. This means in gen one sp. attack and sp. def tended to go hand in hand.
+
+```python
+df1.hist()
+fig=plt.gcf()
+fig.set_size_inches(20,15)
+plt.savefig('hist2.png', bbox_inches='tight')
+plt.show()
+#histograms of the different stats to show if they have normal distribution
+```
+
+![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/hist2.png)
+
