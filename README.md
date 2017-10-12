@@ -489,3 +489,7 @@ plt.show()
 ```
 
 ![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/Graphs/hist8.png)
+
+# Final Observation
+
+Removing Legendaries lowers a lot of our correlations and makes our distrabution less normal. I think leaving legendaries in will imporve your chances of being able to predict type by stats.
