@@ -52,3 +52,5 @@ fig.set_size_inches(20,15)
 plt.show()
 #histograms of the different stats to show if they have normal distribution
 ```
+
+![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/hist1.png)
