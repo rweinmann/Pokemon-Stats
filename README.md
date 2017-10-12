@@ -55,6 +55,8 @@ plt.show()
 
 ![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/hist1.png)
 
+Attack, Defense, HP, Sp. Atk, Sp. Def, and Speed have decent distributions.
+
 # Generation 1
 
 ```python
@@ -84,6 +86,8 @@ plt.show()
 ```
 
 ![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/hist2.png)
+
+Attack, Defense, HP, Sp. Atk, and Speed have decent distributions.
 
 # Generation 2
 
@@ -117,6 +121,8 @@ plt.show()
 
 ![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/hist3.png)
 
+This generation does not have normal distributions.
+
 # Generation 3
 
 ```python
@@ -147,7 +153,7 @@ plt.show()
 
 ![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/hist4.png)
 
-#Generation 4
+# Generation 4
 
 ```python
 df1 = pokemon[pokemon.Generation == 4]
@@ -177,6 +183,8 @@ plt.show()
 ```
 
 ![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/hist5.png)
+
+Attack has decent distribution.
 
 # Generation 5
 
@@ -208,6 +216,8 @@ plt.show()
 
 ![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/hist6.png)
 
+Attack and HP have decent distributions.
+
 # Generation 6
 
 ```python
@@ -237,6 +247,8 @@ plt.show()
 ```
 
 ![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/hist7.png)
+
+Attack, Defense, and HP have decent distributions.
 
 # Conclusion
 
