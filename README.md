@@ -40,7 +40,7 @@ sns.plt.show()
 #color map looking at Pearson correlations
 ```
 
-[[https://github.com/justinminsk/Pokemon-Stats/blob/master/heat1.png]]
+![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/heat1.png)
 
 As we can see sp. def and defense as well as sp. attack and sp. def have some of 
 the strongest correlations.
