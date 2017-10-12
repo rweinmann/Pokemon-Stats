@@ -32,6 +32,25 @@ pokemon = pd.read_csv('Pokemon.csv')
 Now we can graph the data.
 
 ```python
+# Looking at the breakdown of type 1
+type_count = pd.value_counts(pokemon['Type 1'], sort = True).sort_index()
+labels = ['Bug', 'Dark', 'Dragon', 'Electric', 'Fariy', 'Fighting', 'Fire',
+         'Flying', 'Ghost', 'Grass', 'Ground', 'Ice', 'Normal', 'Poison', 'Psychic',
+         'Rock', 'Steel', 'Water']
+sizes = type_count
+
+fig1, ax1 = plt.subplots()
+ax1.pie(sizes, labels = labels, startangle=90)
+ax1.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
+
+plt.title('Number of Pokemon by type 1')
+#plt.savefig('pie1.png', bbox_inches='tight')
+plt.show()
+```
+
+![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/pie1.png)
+
+```python
 colormap = plt.cm.plasma
 plt.figure(figsize=(16,12))
 plt.title('Pearson correlation of data', y = 1.05, size = 15)
@@ -63,6 +82,26 @@ Attack, Defense, HP, Sp. Atk, Sp. Def, and Speed have decent distributions.
 df1 = pokemon[pokemon.Generation == 1]
 #look at just first generation pokemon
 
+# Looking at the breakdown of type 1
+type_count = pd.value_counts(df1['Type 1'], sort = True).sort_index()
+#print(type_count)
+labels = ['Bug', 'Dragon', 'Electric', 'Fariy', 'Fighting', 'Fire',
+          'Ghost', 'Grass', 'Ground', 'Ice', 'Normal', 'Poison', 'Psychic',
+         'Rock',  'Water']
+sizes = type_count
+
+fig1, ax1 = plt.subplots()
+ax1.pie(sizes, labels = labels, startangle=90)
+ax1.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
+
+plt.title('Number of Pokemon by type 1')
+#plt.savefig('pie2.png', bbox_inches='tight')
+plt.show()
+```
+
+![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/pie2.png)
+
+```python
 colormap = plt.cm.plasma
 plt.figure(figsize=(16,12))
 plt.title('Pearson correlation of data', y = 1.05, size = 15)
@@ -95,6 +134,25 @@ Attack, Defense, HP, Sp. Atk, and Speed have decent distributions.
 df1 = pokemon[pokemon.Generation == 2]
 #look at gen 2 pokemon
 
+# Looking at the breakdown of type 1
+type_count = pd.value_counts(df1['Type 1'], sort = True).sort_index()
+#print(type_count)
+labels = ['Bug', 'Dark', 'Electric', 'Fariy', 'Fighting', 'Fire',
+          'Ghost', 'Grass', 'Ground', 'Ice', 'Normal', 'Poison', 'Psychic',
+         'Rock', 'Steel', 'Water']
+sizes = type_count
+
+fig1, ax1 = plt.subplots()
+ax1.pie(sizes, labels = labels, startangle=90)
+ax1.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
+
+plt.title('Number of Pokemon by type 1')
+#plt.savefig('pie3.png', bbox_inches='tight')
+plt.show()
+```
+![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/pie3.png)
+
+```python
 colormap = plt.cm.plasma
 plt.figure(figsize=(16,12))
 plt.title('Pearson correlation of data', y = 1.05, size = 15)
@@ -129,6 +187,26 @@ This generation does not have normal distributions.
 df1 = pokemon[pokemon.Generation == 3]
 #look at gen 3 pokemon
 
+# Looking at the breakdown of type 1
+type_count = pd.value_counts(df1['Type 1'], sort = True).sort_index()
+#print(type_count)
+labels = ['Bug', 'Dark',  'Electric', 'Fariy', 'Fighting', 'Fire',
+          'Ghost', 'Grass', 'Ground', 'Ice', 'Normal', 'Poison', 'Psychic',
+         'Rock', 'Steel', 'Water']
+sizes = type_count
+
+fig1, ax1 = plt.subplots()
+ax1.pie(sizes, labels = labels, startangle=90)
+ax1.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
+
+plt.title('Number of Pokemon by type 1')
+#plt.savefig('pie4.png', bbox_inches='tight')
+plt.show()
+```
+
+![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/pie4.png)
+
+```python
 colormap = plt.cm.plasma
 plt.figure(figsize=(16,12))
 plt.title('Pearson correlation of data', y = 1.05, size = 15)
@@ -159,6 +237,27 @@ plt.show()
 df1 = pokemon[pokemon.Generation == 4]
 #look at gen 4 pokemon
 
+
+# Looking at the breakdown of type 1
+type_count = pd.value_counts(df1['Type 1'], sort = True).sort_index()
+#print(type_count)
+labels = ['Bug', 'Dark', 'Dragon', 'Electric', 'Fariy', 'Fighting', 'Fire',
+          'Ghost', 'Grass', 'Ground', 'Ice', 'Normal', 'Poison', 'Psychic',
+         'Rock', 'Steel', 'Water']
+sizes = type_count
+
+fig1, ax1 = plt.subplots()
+ax1.pie(sizes, labels = labels, startangle=90)
+ax1.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
+
+plt.title('Number of Pokemon by type 1')
+#plt.savefig('pie5.png', bbox_inches='tight')
+plt.show()
+```
+
+![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/pie5.png)
+
+```python
 colormap = plt.cm.plasma
 plt.figure(figsize=(16,12))
 plt.title('Pearson correlation of data', y = 1.05, size = 15)
@@ -192,6 +291,26 @@ Attack has decent distribution.
 df1 = pokemon[pokemon.Generation == 5]
 #look at gen 5 pokemon
 
+# Looking at the breakdown of type 1
+type_count = pd.value_counts(df1['Type 1'], sort = True).sort_index()
+#print(type_count)
+labels = ['Bug', 'Dark', 'Dragon', 'Electric',  'Fighting', 'Fire',
+         'Flying', 'Ghost', 'Grass', 'Ground', 'Ice', 'Normal', 'Poison', 'Psychic',
+         'Rock', 'Steel', 'Water']
+sizes = type_count
+
+fig1, ax1 = plt.subplots()
+ax1.pie(sizes, labels = labels, startangle=90)
+ax1.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
+
+plt.title('Number of Pokemon by type 1')
+#plt.savefig('pie6.png', bbox_inches='tight')
+plt.show()
+```
+
+![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/pie6.png)
+
+```python
 colormap = plt.cm.plasma
 plt.figure(figsize=(16,12))
 plt.title('Pearson correlation of data', y = 1.05, size = 15)
@@ -224,6 +343,26 @@ Attack and HP have decent distributions.
 df1 = pokemon[pokemon.Generation == 6]
 #look at gen 6 pokemon
 
+
+# Looking at the breakdown of type 1
+type_count = pd.value_counts(df1['Type 1'], sort = True).sort_index()
+#print(type_count)
+labels = ['Bug', 'Dark', 'Dragon', 'Electric', 'Fariy', 'Fighting', 'Fire',
+         'Flying', 'Ghost', 'Grass',  'Ice', 'Normal', 'Poison', 'Psychic',
+         'Rock', 'Steel', 'Water']
+sizes = type_count
+
+fig1, ax1 = plt.subplots()
+ax1.pie(sizes, labels = labels, startangle=90)
+ax1.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
+
+plt.title('Number of Pokemon by type 1')
+#plt.savefig('pie7.png', bbox_inches='tight')
+plt.show()
+```
+![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/pie7.png)
+
+```python
 colormap = plt.cm.plasma
 plt.figure(figsize=(16,12))
 plt.title('Pearson correlation of data', y = 1.05, size = 15)
@@ -261,6 +400,25 @@ df1 = pokemon['Legendary'].map(lambda x: x == 0)
 df1 = pokemon[df1]
 #get the data without legendaries
 
+# Looking at the breakdown of type 1
+type_count = pd.value_counts(df1['Type 1'], sort = True).sort_index()
+labels = ['Bug', 'Dark', 'Dragon', 'Electric', 'Fariy', 'Fighting', 'Fire',
+         'Flying', 'Ghost', 'Grass', 'Ground', 'Ice', 'Normal', 'Poison', 'Psychic',
+         'Rock', 'Steel', 'Water']
+sizes = type_count
+
+fig1, ax1 = plt.subplots()
+ax1.pie(sizes, labels = labels, startangle=90)
+ax1.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
+
+plt.title('Number of Pokemon by type 1')
+#plt.savefig('pie8.png', bbox_inches='tight')
+plt.show()
+```
+
+![alt text](https://github.com/justinminsk/Pokemon-Stats/blob/master/pie8.png)
+
+```python
 colormap = plt.cm.plasma
 plt.figure(figsize=(16,12))
 plt.title('Pearson correlation of data without legendaries', y = 1.05, size = 15)
