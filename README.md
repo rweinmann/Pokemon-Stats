@@ -6,6 +6,12 @@ a lot of statistics and analyze to create teams that can win the meta at tournam
 of this kernal is to look at the Pokemon by generation and see if we can find any insight into 
 the numbers behind the design.
 
+# An Example of a Pokemon
+
+![alt text](https://cdn.bulbagarden.net/upload/2/28/Spr_6o_025_C.png)
+
+This is Pickachu the franchises mascot.
+
 # A Look at Every Generation
 
 Looking at all the generations at once we can create a control that we can compare to the 
