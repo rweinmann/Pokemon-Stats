@@ -1,3 +1,7 @@
+# How to run the code
+
+To run the code you should use anaconda3 or jupyter notebook with python 3. You will also need numpy, pandas, matplotlib, seaborn, and pylab libraries for python.
+
 # A Look at Pokemon by Generation
 
 Pokemon became a sensation in the 1990's and continues to be a popular franchise to this date. 
@@ -492,4 +496,8 @@ plt.show()
 
 # Final Observation
 
-Removing Legendaries lowers a lot of our correlations and makes our distrabution less normal. I think leaving legendaries in will imporve your chances of being able to predict type by stats.
+Removing Legendries lowers a lot of our correlations and makes our distribution less normal. I think leaving legendries in will improve your chances of being able to predict type by stats.
+
+### Author 
+
+Justin Minsk - justin.minsk@gmail.com
